@@ -13,10 +13,10 @@ then
 	pkg install dos2unix
 	pip install requests colorama proxyscrape
 	cp ~/bomber/spammer.py $PREFIX/bin/bomber
-	dos2unix $PREFIX/bin/spymer
-	chmod -R 777 ~/spymer
-	chmod 777 $PREFIX/bin/spymer
-	spymer
+	dos2unix $PREFIX/bin/bomber
+	chmod -R 777 ~/bomber
+	chmod 777 $PREFIX/bin/bomber
+	bomber
 else
 	if [ $numb = "2" ]
 	then
@@ -31,7 +31,7 @@ else
 			dos2unix $RPEFIX/bin/bomber
 			chmod 777 $RPEFIX/bin/bomber
 			chmod -R 777 ~/bomber
-			spymer
+			bomber
 		fi
 	else
 		if [ $numb = "3" ] 
@@ -45,7 +45,7 @@ else
 			cp ~/bomber/spammer.py /usr/bin/bomber
 			dos2unix /usr/bin/bomber
 			chmod 777 /usr/bin/bomber
-			spymer
+			bomber
 		else
 			echo "Некорректный ввод"
 		fi
