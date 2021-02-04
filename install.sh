@@ -1,6 +1,5 @@
 #!/bin/bash
 clear
-echo '   ┕━━━━╗✹╔━━━━┙
 echo '╔━═━═━︽︾♚︾︽━═━═━╗
 echo '     1 — Termux
 echo '     2 —  Unix
