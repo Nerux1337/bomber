@@ -1,11 +1,11 @@
 #!/bin/bash
 clear
-echo "    ┕━━━━╗✹╔━━━━┙
-echo "╔━═━═━︽︾♚︾︽━═━═━╗
-echo "     1 — Termux
-echo "     2 —  Unix
-echo "     3 —  iSH
-echo "╚━═━═━︾︽♔︽︾━═━═━╝
+echo"     ┕━━━━╗✹╔━━━━┙
+echo"╔━═━═━︽︾♚︾︽━═━═━╗
+echo"     1 — Termux
+echo"     2 —  Unix
+echo"     3 —  iSH
+echo"╚━═━═━︾︽♔︽︾━═━═━╝
 read numb
 if [ $numb = "1" ]
 then
