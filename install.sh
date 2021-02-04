@@ -1,9 +1,9 @@
 #!/bin/bash
 clear
 echo '╔━═━═━︽︾♚︾︽━═━═━╗
-echo '     1 — Termux
+echo "     1 — Termux
 echo '     2 —  Unix
-echo '     3 —  iSH
+echo "     3 —  iSH
 echo '╚━═━═━︾︽♔︽︾━═━═━╝
 read numb
 if [ $numb = "1" ]
